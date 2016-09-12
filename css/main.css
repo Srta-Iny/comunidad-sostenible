@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+h2{
+	font-weight: bold;
+	font-size: 22px;
+}
+.pd-2{
+	padding: 2%;
+}
+.mg-2{
+	margin: 2% auto;
+}
+/*header*/
+#menu{
+	padding: 2% 0;
+}
+.logo{
+	width: 35%;
+}
+nav li{
+	display: inline-block;
+	margin:3%;
+}
+.text-gris{;
+	color: #9E9E9E;
+	font-size: 18px;
+	font-weight: bold;
+}
+/*semilla*/
+.semilla{
+	background-image: url(../img/semilla.jpg);
+	height: 420px;
+}
+.box-gris{
+	background-color: #e0e0e0;
+	height: 200px;
+	text-align: center;
+	padding: 5% 15%;
+}
+/*mision-vision*/
+#mision{
+	text-align: center;
+}
+.icon-m{
+	width: 40%;
+}
+/*metodologia*/
+.box-t{
+	background-image: url(../img/metodo.JPG);
+	height: 400px;
+}
+.box-v1{
+	background-image: url(../img/fondo.jpg);
+	height: 400px;
+}
+.icon-met{
+	width: 10%;
+}
+.pd-10{
+	padding: 8% 10%;
+}
+/*servicios*/
+
+
+/*proyectos*/
+#proyecto{
+	background-color: #5e8039;
+	height: 850px;
+}
+.titulo-p{
+	margin: 2%;
+	color:#fff;
+	text-align: center;
+}
+.f-p1{
+	padding:3%;
+	height: 350px;
+}
+.f-p2{
+	padding:2% 0;
+	height: 350px;
+}
+.nombre{
+	margin: 2% 0;
+}
+/*equipo*/
+#equipo li{
+	display: inline-block;
+}
+#equipo li img{
+	width: 60%;
+}
+.f-circular{
+	width: 50%;
+	border-radius: 250px;
+	overflow: hidden;
+}
+/*slider*/
+#slider{
+	background-image: url(../img/fondo2.jpg);
+	height: 600px;
+}
+.jcarousel li{
+	color: #616161;
+}
+.jcarousel li:hover{
+	color: #5E8039;
+}
+/*redes sociales*/
+#r-social{
+	background-color: #4D4D4D;
+	height: 350px;
+}
+.box-rs{
+	padding: 3% 2%;
+	margin: 3% 0;
+	border: 2px solid gray;
+	height: 250px;
+}
+.box-rs1{
+	padding: 3% 2%;
+	margin: 3% 0;
+	border-top: 2px solid gray;
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+	height: 250px;
+}
+.box-rs a, .box-rs1 a{
+	color:#fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+.box-rs img, .box-rs1 img{
+	width: 40%;
+}
+/*footer*/
+footer{
+	font-weight: bold;
+}
