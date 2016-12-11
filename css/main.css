@@ -18,6 +18,12 @@ h2{
 	margin: 2% auto;
 }
 /*header*/
+#cabecera{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+}
 #menu{
 	padding: 2% 0;
 }
@@ -37,6 +43,7 @@ nav li{
 .semilla{
 	background-image: url(../img/semilla.jpg);
 	height: 420px;
+	padding-top: 80px;
 }
 .box-gris{
 	background-color: #e0e0e0;
